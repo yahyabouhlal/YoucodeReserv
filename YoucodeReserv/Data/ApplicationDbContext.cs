@@ -12,5 +12,10 @@ namespace YoucodeReserv.Data
             : base(options)
         {
         }
+
+        public DbSet<Etudiants> Etudiants { get; set; }
+        public DbSet<TypeReservation> TypeReservations { get; set; }
+        public DbSet<Resrvation> Resrvations { get; set; }
     }
+
 }
